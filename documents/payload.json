@@ -1,0 +1,662 @@
+{
+  "system": "ServiceNow",
+  "entity": "cmdb_ci_computer",
+  "type": "UPDATE",
+  "id": "b4fd7c8437201000deeabfc8bcbe5dc1",
+  "entries": [
+    {
+      "field": "sys_id",
+      "type": "GUID",
+      "previous": "b4fd7c8437201000deeabfc8bcbe5dc1",
+      "current": "b4fd7c8437201000deeabfc8bcbe5dc1"
+    },
+    {
+      "field": "os_address_width",
+      "type": "integer",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "attested_date",
+      "type": "glide_date_time",
+      "previous": "",
+      "current": ""
+    },
+    {
+      "field": "operational_status",
+      "type": "integer",
+      "previous": "1",
+      "current": "1"
+    },
+    {
+      "field": "os_service_pack",
+      "type": "string",
+      "previous": "Service Pack 2",
+      "current": "Service Pack 2"
+    },
+    {
+      "field": "cpu_core_thread",
+      "type": "integer",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "cpu_manufacturer",
+      "type": "reference",
+      "previous": "7aad6d00c611228400f00e0f80b67d2d",
+      "current": "7aad6d00c611228400f00e0f80b67d2d"
+    },
+    {
+      "field": "sys_updated_on",
+      "type": "glide_date_time",
+      "previous": "2024-03-14 07:27:31",
+      "current": "2024-03-14 07:46:11"
+    },
+    {
+      "field": "discovery_source",
+      "type": "string",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "first_discovered",
+      "type": "glide_date_time",
+      "previous": "2007-03-13 20:55:20",
+      "current": "2007-03-13 20:55:20"
+    },
+    {
+      "field": "due_in",
+      "type": "string",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "invoice_number",
+      "type": "string",
+      "previous": "INV0166221",
+      "current": "INV0166221"
+    },
+    {
+      "field": "gl_account",
+      "type": "string",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "sys_created_by",
+      "type": "string",
+      "previous": "admin",
+      "current": "admin"
+    },
+    {
+      "field": "warranty_expiration",
+      "type": "glide_date",
+      "previous": "2018-12-16",
+      "current": "2018-12-16"
+    },
+    {
+      "field": "ram",
+      "type": "integer",
+      "previous": "1534",
+      "current": "1534"
+    },
+    {
+      "field": "cpu_name",
+      "type": "string",
+      "previous": "Intel(R) Pentium(R) M processor 1.86GHz",
+      "current": "Intel(R) Pentium(R) M processor 1.86GHz"
+    },
+    {
+      "field": "cpu_speed",
+      "type": "decimal",
+      "previous": "798",
+      "current": "798"
+    },
+    {
+      "field": "owned_by",
+      "type": "reference",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "checked_out",
+      "type": "glide_date_time",
+      "previous": "",
+      "current": ""
+    },
+    {
+      "field": "sys_domain_path",
+      "type": "domain_path",
+      "previous": "/",
+      "current": "/"
+    },
+    {
+      "field": "disk_space",
+      "type": "decimal",
+      "previous": "51",
+      "current": "51"
+    },
+    {
+      "field": "object_id",
+      "type": "string",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "business_unit",
+      "type": "reference",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "maintenance_schedule",
+      "type": "reference",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "cost_center",
+      "type": "reference",
+      "previous": "d9d01546c0a80a6403e18b82250c80a1",
+      "current": "d9d01546c0a80a6403e18b82250c80a1"
+    },
+    {
+      "field": "attested_by",
+      "type": "reference",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "dns_domain",
+      "type": "string",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "u_bluedolphin_id",
+      "type": "string",
+      "previous": "65ef1d970c08ba867c64ad9d",
+      "current": "65ef1d970c08ba867c64ad9d"
+    },
+    {
+      "field": "assigned",
+      "type": "glide_date_time",
+      "previous": "2023-06-21 07:00:00",
+      "current": "2023-06-21 07:00:00"
+    },
+    {
+      "field": "purchase_date",
+      "type": "glide_date",
+      "previous": "2017-12-16",
+      "current": "2017-12-16"
+    },
+    {
+      "field": "life_cycle_stage",
+      "type": "reference",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "short_description",
+      "type": "string",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "cd_speed",
+      "type": "integer",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "floppy",
+      "type": "string",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "managed_by",
+      "type": "reference",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "os_domain",
+      "type": "string",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "last_discovered",
+      "type": "glide_date_time",
+      "previous": "2007-04-12 23:17:45",
+      "current": "2007-04-12 23:17:45"
+    },
+    {
+      "field": "can_print",
+      "type": "boolean",
+      "previous": "0",
+      "current": "0"
+    },
+    {
+      "field": "sys_class_name",
+      "type": "sys_class_name",
+      "previous": "cmdb_ci_computer",
+      "current": "cmdb_ci_computer"
+    },
+    {
+      "field": "manufacturer",
+      "type": "reference",
+      "previous": "aa0a6df8c611227601cd2ed45989e0ac",
+      "current": "aa0a6df8c611227601cd2ed45989e0ac"
+    },
+    {
+      "field": "cpu_count",
+      "type": "integer",
+      "previous": "4",
+      "current": "1"
+    },
+    {
+      "field": "vendor",
+      "type": "reference",
+      "previous": "aa0a6df8c611227601cd2ed45989e0ac",
+      "current": "aa0a6df8c611227601cd2ed45989e0ac"
+    },
+    {
+      "field": "life_cycle_stage_status",
+      "type": "reference",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "model_number",
+      "type": "string",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "assigned_to",
+      "type": "reference",
+      "previous": "c9884ac30a0a0bdb3879454e8f02774e",
+      "current": "c9884ac30a0a0bdb3879454e8f02774e"
+    },
+    {
+      "field": "start_date",
+      "type": "glide_date_time",
+      "previous": "",
+      "current": ""
+    },
+    {
+      "field": "os_version",
+      "type": "string",
+      "previous": "5.1.2600",
+      "current": "5.1.2600"
+    },
+    {
+      "field": "serial_number",
+      "type": "string",
+      "previous": "L3BB911",
+      "current": "L3BB911"
+    },
+    {
+      "field": "cd_rom",
+      "type": "boolean",
+      "previous": "0",
+      "current": "0"
+    },
+    {
+      "field": "support_group",
+      "type": "reference",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "unverified",
+      "type": "boolean",
+      "previous": "0",
+      "current": "0"
+    },
+    {
+      "field": "correlation_id",
+      "type": "string",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "attributes",
+      "type": "string",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "asset",
+      "type": "reference",
+      "previous": "73c1fa8837f3100044e0bfc8bcbe5ded",
+      "current": "73c1fa8837f3100044e0bfc8bcbe5ded"
+    },
+    {
+      "field": "form_factor",
+      "type": "string",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "cpu_core_count",
+      "type": "integer",
+      "previous": "1",
+      "current": "1"
+    },
+    {
+      "field": "skip_sync",
+      "type": "boolean",
+      "previous": "0",
+      "current": "0"
+    },
+    {
+      "field": "product_instance_id",
+      "type": "string",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "most_frequent_user",
+      "type": "reference",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "attestation_score",
+      "type": "integer",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "sys_updated_by",
+      "type": "string",
+      "previous": "admin",
+      "current": "admin"
+    },
+    {
+      "field": "sys_created_on",
+      "type": "glide_date_time",
+      "previous": "2011-08-12 21:11:18",
+      "current": "2011-08-12 21:11:18"
+    },
+    {
+      "field": "sys_domain",
+      "type": "domain_id",
+      "previous": "global",
+      "current": "global"
+    },
+    {
+      "field": "cpu_type",
+      "type": "string",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "install_date",
+      "type": "glide_date_time",
+      "previous": "2022-12-24 08:00:00",
+      "current": "2022-12-24 09:00:00"
+    },
+    {
+      "field": "asset_tag",
+      "type": "string",
+      "previous": "P1000226",
+      "current": "P1000226"
+    },
+    {
+      "field": "hardware_substatus",
+      "type": "string",
+      "previous": null,
+      "current": "installed"
+    },
+    {
+      "field": "fqdn",
+      "type": "string",
+      "previous": null,
+      "current": "annie.ibm.com"
+    },
+    {
+      "field": "change_control",
+      "type": "reference",
+      "previous": null,
+      "current": "d9d01546c0a80a6403e18b82250c80a1"
+    },
+    {
+      "field": "internet_facing",
+      "type": "boolean",
+      "previous": null,
+      "current": "1"
+    },
+    {
+      "field": "delivery_date",
+      "type": "glide_date_time",
+      "previous": "",
+      "current": "2024-12-16 08:00:00"
+    },
+    {
+      "field": "hardware_status",
+      "type": "string",
+      "previous": "uninstalled",
+      "current": "installed"
+    },
+    {
+      "field": "install_status",
+      "type": "integer",
+      "previous": "1",
+      "current": "1"
+    },
+    {
+      "field": "supported_by",
+      "type": "reference",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "name",
+      "type": "string",
+      "previous": "*ANNIE-IBM",
+      "current": "*ANNIE-IBM"
+    },
+    {
+      "field": "subcategory",
+      "type": "string",
+      "previous": null,
+      "current": "Computer"
+    },
+    {
+      "field": "default_gateway",
+      "type": "string",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "virtual",
+      "type": "boolean",
+      "previous": "0",
+      "current": "0"
+    },
+    {
+      "field": "chassis_type",
+      "type": "string",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "assignment_group",
+      "type": "reference",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "managed_by_group",
+      "type": "reference",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "po_number",
+      "type": "string",
+      "previous": "PO27711",
+      "current": "PO27711"
+    },
+    {
+      "field": "checked_in",
+      "type": "glide_date_time",
+      "previous": "",
+      "current": ""
+    },
+    {
+      "field": "sys_class_path",
+      "type": "sys_class_path",
+      "previous": "/!!/!2/!(",
+      "current": "/!!/!2/!("
+    },
+    {
+      "field": "mac_address",
+      "type": "string",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "company",
+      "type": "reference",
+      "previous": "31bea3d53790200044e0bfc8bcbe5dec",
+      "current": "31bea3d53790200044e0bfc8bcbe5dec"
+    },
+    {
+      "field": "justification",
+      "type": "string",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "department",
+      "type": "reference",
+      "previous": "a581ab703710200044e0bfc8bcbe5de8",
+      "current": "a581ab703710200044e0bfc8bcbe5de8"
+    },
+    {
+      "field": "cost",
+      "type": "float",
+      "previous": "3665",
+      "current": "3665"
+    },
+    {
+      "field": "comments",
+      "type": "string",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "os",
+      "type": "string",
+      "previous": "Windows XP Professional",
+      "current": "Windows XP Professional"
+    },
+    {
+      "field": "attestation_status",
+      "type": "string",
+      "previous": "Not Yet Reviewed",
+      "current": "Not Yet Reviewed"
+    },
+    {
+      "field": "sys_mod_count",
+      "type": "integer",
+      "previous": "62",
+      "current": "63"
+    },
+    {
+      "field": "monitor",
+      "type": "boolean",
+      "previous": "0",
+      "current": "0"
+    },
+    {
+      "field": "model_id",
+      "type": "reference",
+      "previous": "a9a2d0c3c6112276010db16c5ddd3461",
+      "current": "a9a2d0c3c6112276010db16c5ddd3461"
+    },
+    {
+      "field": "ip_address",
+      "type": "ip_addr",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "duplicate_of",
+      "type": "reference",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "sys_tags",
+      "type": "related_tags",
+      "previous": "",
+      "current": ""
+    },
+    {
+      "field": "cost_cc",
+      "type": "string",
+      "previous": "USD",
+      "current": "USD"
+    },
+    {
+      "field": "order_date",
+      "type": "glide_date_time",
+      "previous": "",
+      "current": ""
+    },
+    {
+      "field": "schedule",
+      "type": "reference",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "environment",
+      "type": "string",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "due",
+      "type": "glide_date_time",
+      "previous": "",
+      "current": ""
+    },
+    {
+      "field": "attested",
+      "type": "boolean",
+      "previous": null,
+      "current": null
+    },
+    {
+      "field": "location",
+      "type": "reference",
+      "previous": "f48b202a0a0a0ba7004d9fdfb817015d",
+      "current": "f48b202a0a0a0ba7004d9fdfb817015d"
+    },
+    {
+      "field": "category",
+      "type": "string",
+      "previous": "Do not migrate to asset",
+      "current": "Do not migrate to asset"
+    },
+    {
+      "field": "fault_count",
+      "type": "integer",
+      "previous": "0",
+      "current": "0"
+    },
+    {
+      "field": "lease_id",
+      "type": "string",
+      "previous": null,
+      "current": null
+    }
+  ]
+}
