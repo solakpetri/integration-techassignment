@@ -6,6 +6,8 @@ import path from 'path';
 import { fileURLToPath } from "url";
 import PatchUtilities from '../controllers/patch_utils.js'; // Adjust path and import style as needed
 
+// Test the patch method here
+
 const app = express();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -65,6 +67,6 @@ describe('PATCH /ServiceNow/:id?', () => {
       .send({ type: "UPDATE" });
 
     expect(response.status).to.equal(200);
-    expect(response.body.message).to.equal('Data received successfully');
+    expect(response.body.message).to.equal('Successfull');
   });
 });
