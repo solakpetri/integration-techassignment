@@ -18,10 +18,10 @@ npm test
 
 ## Usage
 
-*GET request can be sent with or without ID.
-*POST request sends everything in the payload.
-*PATCH can be done with or without specifying ID. If not specified, then it will read the ID in the payload. If another ID is entered, it will throw an error.
-*Considering there is no other ID in the payload, above method closes the gaps.
+- GET request can be sent with or without ID.
+- POST request sends everything in the payload.
+- PATCH can be done with or without specifying ID. If not specified, then it will read the ID in the payload. If another ID is entered, it will throw an error.
+- Considering there is no other ID in the payload, above method closes the gaps.
 
 ### GET
 
