@@ -5,17 +5,26 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha 'data/test/test1.js'",
     "start": "nodemon --experimental-modules --es-module-specifier-resolution=node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "nodemon": "^3.1.4"
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3",
+    "nodemon": "^3.1.4",
+    "request": "^2.88.2",
+    "sinon": "^18.0.0",
+    "supertest": "^7.0.0"
   },
   "dependencies": {
+    "ajv": "^8.17.1",
+    "body-parser": "^1.20.2",
     "express": "^4.19.2",
-    "moment": "^2.30.1"
+    "moment": "^2.30.1",
+    "node-fetch": "^3.3.2",
+    "tv4": "^1.3.0"
   }
 }
